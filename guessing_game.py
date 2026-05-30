@@ -22,7 +22,7 @@ def play():
         elif secret>guess:
             print("Too low!")
         else:
-            print("You guessed it right!")
+            print(f"You guessed it right in {attempts} attempts!")
             return 
     
     print(f"Out of attempts! The number was {secret}")
